@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JavaScript Exercise</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="calculator.css" />
+
+  </head>
+  <body>
+    <!-- <script src="js/calculator.js">
+      
+    </script> -->
+      <!-- <div>
+        <h2>Calculator</h2>
+        <div class="container d-flex justify-content-center"> -->
+          <!-- <div class="card d-flex justify-content-center" style="width: 20rem;">
+            <div class="card-body bg-warning">
+              <input class="text-white bg-dark d-flex justify-content-center"></input>
+              <div class="d-flex justify-content-center">
+                <td>
+                  <button class="btn btn-light text-dark">9</button>
+                  <button class="btn btn-light">8</button>
+                  <button class="btn btn-light">7</button>
+                </td>
+              </div>
+              <div>
+                <td>
+                  <button class="btn btn-light">6</button>
+                  <button class="btn btn-light text-dark">5</button>
+                  <button class="btn btn-light text-dark">4</button>
+                </td>
+              </div>
+              <div>
+                <td>
+                  <button class="btn btn-light text-dark">3</button>
+                  <button class="btn btn-light text-dark">2</button>
+                  <button class="btn btn-light text-dark">1</button>
+                </td>
+              </div>
+              
+            </div>
+          </div> -->
+          <!-- <div class="card d-flex justify-content-center" style="width: 20rem;">
+          <div class="card-body bg-info">
+            <div class="container row"> -->
+            <!-- <div class="input-group">
+              <input type="text" class="form-control border border-dark bg-dark" placeholder="" aria-label="Input group example" aria-describedby="btnGroupAddon">
+            </div> -->
+          
+            <!-- <div class="btn-group mr-2 w-100 col" role="group" aria-label="First group">
+              <button type="button" class="btn btn-light border btn-lg border-dark"><i class="fa-solid fa-plus"></i></button>
+              <button type="button" class="btn btn-light border btn-lg border-dark"><i class="fa-solid fa-minus"></i></button>
+              <button type="button" class="btn btn-light border btn-lg border-dark"><i class="fa-solid fa-x"></i></button>
+              <button class="btn btn-light border btn-lg border-dark"><i class="fa-solid fa-divide"></i></button>
+            </div> -->
+            <!-- <div class="row">
+              <div class=" btn group mr-2 w-100 col">
+                <div class="input-group">
+                  <input type="text" class="form-control border border-dark bg-dark" placeholder="" aria-label="Input group example" aria-describedby="btnGroupAddon">
+                </div>
+                  <div class="row">
+                  <div class="btn-group mr-2 w-100 col" role="group" aria-label="First group">
+                    <button type="button" class="btn btn-light border btn-lg border-dark"><i class="fa-solid fa-plus"></i></button>
+                    <button type="button" class="btn btn-light border btn-lg border-dark"><i class="fa-solid fa-minus"></i></button>
+                    <button type="button" class="btn btn-light border btn-lg border-dark"><i class="fa-solid fa-x"></i></button>
+                  </div>
+                  <div class="btn-group mr-2 w-100 row">
+                    <button class="btn btn-light border btn-lg border-dark"><i class="fa-solid fa-divide"></i></button>
+                  </div>
+                  </div>
+                <div class="row">
+                  <div class="col mr-6">
+                  <div class="btn-group mr-2 w-100 col " role="group" aria-label="Second group">
+                    <button type="button" class="btn btn-light border btn-lg border-dark">9</button>
+                    <button type="button" class="btn btn-light border btn-lg border-dark">8</button>
+                    <button type="button" class="btn btn-light border btn-lg border-dark">7</button>
+                  </div>
+                  <div class="btn-group mr-2 w-100 col" role="group" aria-label="Third group">
+                    <button type="button" class="btn btn-light border btn-lg border-dark">6</button>
+                    <button type="button" class="btn btn-light border btn-lg border-dark">5</button>
+                    <button type="button" class="btn btn-light border btn-lg border-dark">4</button>
+                  </div>
+                  <div class="btn-group mr-2 w-100 col" role="group" aria-label="Fourth group">
+                    <button type="button" class="btn btn-light border btn-lg border-dark">3</button>
+                    <button type="button" class="btn btn-light border btn-lg border-dark">2</button>
+                    <button type="button" class="btn btn-light border btn-lg border-dark">1</button>
+                  </div>
+                  <div class="btn-group mr-2 w-100 col" role="group" aria-label="Fifth group">
+                    <button type="button" class="btn btn-light border btn-lg border-dark">0</button>
+                    <button type="button" class="btn btn-light border btn-lg border-dark">.</button>
+                    <button type="button" class="btn btn-light border btn-lg border-dark"><i class="fa-solid fa-c"></i></button>
+                  </div>
+                </div>
+                <div class="col mr-6">
+                  <div class="btn-group mr-3 w-100 col" role="group">
+                    <button type="button" class="btn btn-warning border btn-lg border-dark"><i class="fa-solid fa-equals"></i></button>
+                  </div>
+                </div>
+                </div>
+             
+                  <div class="btn-group mr-3 w-100 col" role="group">
+                    <button type="button" class="btn btn-warning border btn-lg border-dark"><i class="fa-solid fa-equals"></i></button>
+                  </div>
+          
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
+          
+          
+        </div> -->
+      <!-- </div> -->
+      <div class="calculator card">
+
+        <input type="text" class="calculator-screen z-depth-1" value="" disabled />
+    
+        <div class="calculator-keys">
+    
+          <button type="button" class="operator btn btn-info border border-dark" value="+"><i class="fa-solid fa-plus"></i></button>
+          <button type="button" class="operator btn btn-info border border-dark" value="-"><i class="fa-solid fa-minus"></i></button>
+          <button type="button" class="operator btn btn-info border border-dark" value="*"><i class="fa-solid fa-x"></i></button>
+          <button type="button" class="operator btn btn-info border border-dark" value="/"><i class="fa-solid fa-divide"></i></button>
+    
+          <button type="button" value="7" class="btn btn-light waves-effect border border-dark">7</button>
+          <button type="button" value="8" class="btn btn-light waves-effect border border-dark">8</button>
+          <button type="button" value="9" class="btn btn-light waves-effect border border-dark">9</button>
+    
+    
+          <button type="button" value="4" class="btn btn-light waves-effect border border-dark">4</button>
+          <button type="button" value="5" class="btn btn-light waves-effect border border-dark">5</button>
+          <button type="button" value="6" class="btn btn-light waves-effect border border-dark">6</button>
+    
+    
+          <button type="button" value="1" class="btn btn-light waves-effect border border-dark">1</button>
+          <button type="button" value="2" class="btn btn-light waves-effect border border-dark">2</button>
+          <button type="button" value="3" class="btn btn-light waves-effect border border-dark">3</button>
+    
+    
+          <button type="button" value="0" class="btn btn-light waves-effect border border-dark">0</button>
+          <button type="button" class="decimal function btn btn-secondary border border-dark" value=".">.</button>
+          <button type="button" class="all-clear function btn btn-danger btn-sm border border-dark" value="all-clear">C</button>
+    
+          <button type="button" class="equal-sign operator btn btn-warning border border-dark" value="="><i class="fa-solid fa-equals"></i></button>
+    
+        </div>
+      </div>
+    </div>
+  </body>
+    <script src="calculator.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+</html>
